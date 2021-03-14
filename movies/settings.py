@@ -32,12 +32,14 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     "netflix",
+    "accounts",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "django_extensions",
 ]
 
 MIDDLEWARE = [
@@ -48,6 +50,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "accounts.middleware.PrintHello"
 ]
 
 ROOT_URLCONF = 'movies.urls'
@@ -55,7 +58,7 @@ ROOT_URLCONF = 'movies.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -103,6 +106,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
+LOGIN_REDIRECT_URL = "/movies/"
+LOGOUT_REDIRECT_URL = "accounts/login"
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
