@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="677166f2-a33c-4bca-935c-ca5d9ce0f927" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/netflix/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/netflix/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netflix/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/netflix/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1ph008Zq1y98ZliRuPCaHhjPVVw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../django-day1/day1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -91,6 +93,10 @@
       <workItem from="1615670591507" duration="4930000" />
       <workItem from="1615704987362" duration="154000" />
       <workItem from="1615705171228" duration="17240000" />
+      <workItem from="1615999389714" duration="208000" />
+      <workItem from="1616078362478" duration="3116000" />
+      <workItem from="1616136888328" duration="7124000" />
+      <workItem from="1616144551181" duration="14329000" />
     </task>
     <servers />
   </component>
